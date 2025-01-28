@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>Daftar Resep Makanan</h1>
+      <h1>Good Meal</h1>
       <div className="food-list">
         {foods.map(food => (
           <div key={food.idMeal} className="food-item">
