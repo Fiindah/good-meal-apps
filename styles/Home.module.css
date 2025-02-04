@@ -1,0 +1,47 @@
+/* Food List */
+.mainContent {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.mainTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  color: #0d9488;
+  font-size: 2rem;
+}
+
+.foodList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.foodItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.foodImage{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.foodTitle {
+  font-size: 1rem;
+  color: #0d9488;
+}
+
+.foodTitle:hover {
+  border: 3px dotted;
+}
+
+.foodSubtitle {
+  text-align: justify;
+  color: #334155;
+}

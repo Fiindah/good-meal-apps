@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* overlay gelap */
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.heroBtn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #0d9488;
+  color: #f8fafc;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.heroBtn:hover {
+  background: #09615a;
+}
+
+.heroImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(50%) blur(2px); /* efek blur */
+  z-index: 0;
+}
